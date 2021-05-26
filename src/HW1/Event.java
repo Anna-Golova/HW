@@ -19,7 +19,7 @@ public class Event {
             for (Obstacles obstacles1 : obstacles) {
                 System.out.println(member + "пытается пройти" + obstacles1);
                 if (obstacles1.toJump(member.getMaxHeight()) ||
-                obstacles1.toRun(member.getMaxLength())) {
+                        obstacles1.toRun(member.getMaxLength())) {
                     System.out.println("Успешно");
                 } else {
                     winner = false;
