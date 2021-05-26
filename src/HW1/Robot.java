@@ -36,3 +36,4 @@ public class Robot implements Party {
         return "Робот по имени" + name;
     }
 }
+
